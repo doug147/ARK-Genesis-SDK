@@ -1,0 +1,32 @@
+#pragma once
+
+// ARK (291.0) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "ARK_WaterTapEmitter_classes.hpp"
+
+namespace sdk
+{
+//---------------------------------------------------------------------------
+//Parameters
+//---------------------------------------------------------------------------
+
+// Function WaterTapEmitter.WaterTapEmitter_C.UserConstructionScript
+struct AWaterTapEmitter_C_UserConstructionScript_Params
+{
+};
+
+// Function WaterTapEmitter.WaterTapEmitter_C.ExecuteUbergraph_WaterTapEmitter
+struct AWaterTapEmitter_C_ExecuteUbergraph_WaterTapEmitter_Params
+{
+	int                                                EntryPoint;                                               // (Parm, ZeroConstructor, IsPlainOldData)
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

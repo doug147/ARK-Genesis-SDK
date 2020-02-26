@@ -1,0 +1,39 @@
+// ARK (291.0) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "ARK_SE_DinoColorSet_DeathWorm_parameters.hpp"
+
+namespace sdk
+{
+//---------------------------------------------------------------------------
+//Functions
+//---------------------------------------------------------------------------
+
+// Function SE_DinoColorSet_DeathWorm.SE_DinoColorSet_DeathWorm_C.ExecuteUbergraph_SE_DinoColorSet_DeathWorm
+// ()
+// Parameters:
+// int                            EntryPoint                     (Parm, ZeroConstructor, IsPlainOldData)
+
+void USE_DinoColorSet_DeathWorm_C::ExecuteUbergraph_SE_DinoColorSet_DeathWorm(int EntryPoint)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function SE_DinoColorSet_DeathWorm.SE_DinoColorSet_DeathWorm_C.ExecuteUbergraph_SE_DinoColorSet_DeathWorm");
+
+	USE_DinoColorSet_DeathWorm_C_ExecuteUbergraph_SE_DinoColorSet_DeathWorm_Params params;
+	params.EntryPoint = EntryPoint;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

@@ -1,0 +1,196 @@
+#pragma once
+
+// ARK (291.0) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "ARK_DinoBlueprintBase_RootBoneName_Strafe_classes.hpp"
+
+namespace sdk
+{
+//---------------------------------------------------------------------------
+//Parameters
+//---------------------------------------------------------------------------
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.BlueprintPlayAnimationEvent
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_BlueprintPlayAnimationEvent_Params
+{
+	class UAnimMontage**                               AnimationMontage;                                         // (Parm, ZeroConstructor, IsPlainOldData)
+	float*                                             PlayRate;                                                 // (Parm, ZeroConstructor, IsPlainOldData)
+	float                                              playedAnimLength;                                         // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3258
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3258_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_SequencePlayer_4175
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_SequencePlayer_4175_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_ModifyBone_666
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_ModifyBone_666_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3257
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3257_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3256
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3256_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3255
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3255_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3254
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3254_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_SequencePlayer_4174
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_SequencePlayer_4174_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_SequencePlayer_4173
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_SequencePlayer_4173_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3253
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3253_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3252
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3252_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_SequencePlayer_4170
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_SequencePlayer_4170_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_RotationOffsetBlendSpace_198
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_RotationOffsetBlendSpace_198_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_SequencePlayer_4169
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_SequencePlayer_4169_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3251
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3251_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3250
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3250_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_SequencePlayer_4168
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_SequencePlayer_4168_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_SequencePlayer_4167
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_SequencePlayer_4167_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3249
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3249_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3248
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3248_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3247
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3247_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_ModifyBone_665
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_ModifyBone_665_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3246
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3246_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3245
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3245_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3244
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3244_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_GroundBones_192
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_GroundBones_192_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_GroundBones_191
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_GroundBones_191_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_ApplyAdditive_258
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_ApplyAdditive_258_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3243
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3243_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3242
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendListByBool_3242_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendSpacePlayer_168
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_EvaluateGraphExposedInputs_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_AnimGraphNode_BlendSpacePlayer_168_Params
+{
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.BlueprintUpdateAnimation
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_BlueprintUpdateAnimation_Params
+{
+	float*                                             DeltaTimeX;                                               // (Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function DinoBlueprintBase_RootBoneName_Strafe.DinoBlueprintBase_RootBoneName_Strafe_C.ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe
+struct UDinoBlueprintBase_RootBoneName_Strafe_C_ExecuteUbergraph_DinoBlueprintBase_RootBoneName_Strafe_Params
+{
+	int                                                EntryPoint;                                               // (Parm, ZeroConstructor, IsPlainOldData)
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

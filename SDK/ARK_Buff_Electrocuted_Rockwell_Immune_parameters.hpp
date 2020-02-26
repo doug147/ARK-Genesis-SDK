@@ -1,0 +1,32 @@
+#pragma once
+
+// ARK (291.0) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "ARK_Buff_Electrocuted_Rockwell_Immune_classes.hpp"
+
+namespace sdk
+{
+//---------------------------------------------------------------------------
+//Parameters
+//---------------------------------------------------------------------------
+
+// Function Buff_Electrocuted_Rockwell_Immune.Buff_Electrocuted_Rockwell_Immune_C.UserConstructionScript
+struct ABuff_Electrocuted_Rockwell_Immune_C_UserConstructionScript_Params
+{
+};
+
+// Function Buff_Electrocuted_Rockwell_Immune.Buff_Electrocuted_Rockwell_Immune_C.ExecuteUbergraph_Buff_Electrocuted_Rockwell_Immune
+struct ABuff_Electrocuted_Rockwell_Immune_C_ExecuteUbergraph_Buff_Electrocuted_Rockwell_Immune_Params
+{
+	int                                                EntryPoint;                                               // (Parm, ZeroConstructor, IsPlainOldData)
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

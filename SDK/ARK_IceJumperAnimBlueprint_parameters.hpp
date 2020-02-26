@@ -1,0 +1,271 @@
+#pragma once
+
+// ARK (291.0) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "ARK_IceJumperAnimBlueprint_classes.hpp"
+
+namespace sdk
+{
+//---------------------------------------------------------------------------
+//Parameters
+//---------------------------------------------------------------------------
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.BlueprintPlayAnimationEvent
+struct UIceJumperAnimBlueprint_C_BlueprintPlayAnimationEvent_Params
+{
+	class UAnimMontage**                               AnimationMontage;                                         // (Parm, ZeroConstructor, IsPlainOldData)
+	float*                                             PlayRate;                                                 // (Parm, ZeroConstructor, IsPlainOldData)
+	float                                              playedAnimLength;                                         // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2152
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2152_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2903
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2903_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_ModifyBone_470
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_ModifyBone_470_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2151
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2151_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2150
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2150_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2149
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2149_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2902
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2902_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2901
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2901_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2148
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2148_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2147
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2147_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2898
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2898_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2146
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2146_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2145
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2145_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2897
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2897_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2896
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2896_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2144
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2144_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2143
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2143_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2142
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2142_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_ModifyBone_469
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_ModifyBone_469_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2141
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2141_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_GroundBones_112
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_GroundBones_112_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_GroundBones_111
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_GroundBones_111_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2140
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2140_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_RotationOffsetBlendSpace_130
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_RotationOffsetBlendSpace_130_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2139
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2139_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2894
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2894_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2138
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2138_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2893
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2893_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2137
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2137_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2892
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2892_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2891
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2891_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2136
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2136_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2135
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2135_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2134
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2134_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2890
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2890_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2889
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2889_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_TwoWayBlend_42
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_TwoWayBlend_42_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_TwoWayBlend_41
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_TwoWayBlend_41_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2888
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2888_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2887
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2887_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_TwoWayBlend_40
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_TwoWayBlend_40_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_TwoWayBlend_39
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_TwoWayBlend_39_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2886
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2886_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2885
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_SequencePlayer_2885_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2133
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_BlendListByBool_2133_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_ApplyAdditive_154
+struct UIceJumperAnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_IceJumperAnimBlueprint_AnimGraphNode_ApplyAdditive_154_Params
+{
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.BlueprintUpdateAnimation
+struct UIceJumperAnimBlueprint_C_BlueprintUpdateAnimation_Params
+{
+	float*                                             DeltaTimeX;                                               // (Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function IceJumperAnimBlueprint.IceJumperAnimBlueprint_C.ExecuteUbergraph_IceJumperAnimBlueprint
+struct UIceJumperAnimBlueprint_C_ExecuteUbergraph_IceJumperAnimBlueprint_Params
+{
+	int                                                EntryPoint;                                               // (Parm, ZeroConstructor, IsPlainOldData)
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

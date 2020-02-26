@@ -1,0 +1,38 @@
+#pragma once
+
+// ARK (291.0) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "ARK_PrimalItem_Skin_Account_GameTester_structs.hpp"
+
+namespace sdk
+{
+//---------------------------------------------------------------------------
+//Classes
+//---------------------------------------------------------------------------
+
+// BlueprintGeneratedClass PrimalItem_Skin_Account_GameTester.PrimalItem_Skin_Account_GameTester_C
+// 0x0000 (0x09B0 - 0x09B0)
+class UPrimalItem_Skin_Account_GameTester_C : public UPrimalItemSkinGeneric_C
+{
+public:
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindClass("BlueprintGeneratedClass PrimalItem_Skin_Account_GameTester.PrimalItem_Skin_Account_GameTester_C");
+		return ptr;
+	}
+
+
+	void ExecuteUbergraph_PrimalItem_Skin_Account_GameTester(int EntryPoint);
+};
+
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

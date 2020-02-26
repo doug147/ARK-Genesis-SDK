@@ -1,0 +1,32 @@
+#pragma once
+
+// ARK (291.0) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "ARK_Buff_PreventDismount_classes.hpp"
+
+namespace sdk
+{
+//---------------------------------------------------------------------------
+//Parameters
+//---------------------------------------------------------------------------
+
+// Function Buff_PreventDismount.Buff_PreventDismount_C.UserConstructionScript
+struct ABuff_PreventDismount_C_UserConstructionScript_Params
+{
+};
+
+// Function Buff_PreventDismount.Buff_PreventDismount_C.ExecuteUbergraph_Buff_PreventDismount
+struct ABuff_PreventDismount_C_ExecuteUbergraph_Buff_PreventDismount_Params
+{
+	int                                                EntryPoint;                                               // (Parm, ZeroConstructor, IsPlainOldData)
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

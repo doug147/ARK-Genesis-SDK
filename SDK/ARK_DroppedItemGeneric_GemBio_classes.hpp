@@ -1,0 +1,39 @@
+#pragma once
+
+// ARK (291.0) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "ARK_DroppedItemGeneric_GemBio_structs.hpp"
+
+namespace sdk
+{
+//---------------------------------------------------------------------------
+//Classes
+//---------------------------------------------------------------------------
+
+// BlueprintGeneratedClass DroppedItemGeneric_GemBio.DroppedItemGeneric_GemBio_C
+// 0x0000 (0x0718 - 0x0718)
+class ADroppedItemGeneric_GemBio_C : public ADroppedItemGeneric_Gem_C
+{
+public:
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindClass("BlueprintGeneratedClass DroppedItemGeneric_GemBio.DroppedItemGeneric_GemBio_C");
+		return ptr;
+	}
+
+
+	void UserConstructionScript();
+	void ExecuteUbergraph_DroppedItemGeneric_GemBio(int EntryPoint);
+};
+
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

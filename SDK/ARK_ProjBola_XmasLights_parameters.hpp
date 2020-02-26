@@ -1,0 +1,32 @@
+#pragma once
+
+// ARK (291.0) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "ARK_ProjBola_XmasLights_classes.hpp"
+
+namespace sdk
+{
+//---------------------------------------------------------------------------
+//Parameters
+//---------------------------------------------------------------------------
+
+// Function ProjBola_XmasLights.ProjBola_XmasLights_C.UserConstructionScript
+struct AProjBola_XmasLights_C_UserConstructionScript_Params
+{
+};
+
+// Function ProjBola_XmasLights.ProjBola_XmasLights_C.ExecuteUbergraph_ProjBola_XmasLights
+struct AProjBola_XmasLights_C_ExecuteUbergraph_ProjBola_XmasLights_Params
+{
+	int                                                EntryPoint;                                               // (Parm, ZeroConstructor, IsPlainOldData)
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
